@@ -6,12 +6,20 @@ export default {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: "class",
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-        btn_color: "var(--btn-color)",
+        dark_background: "#818182",
+        dark_component_background: "#1E1E1F",
+        dark_button_color: "#79079C",
+        dark_nav_color: "#2F3033",
+        dark_sign_red: "#9C0707",
+        light_background: "#f5f5f5",
+        light_component_background: "#fff",
+        light_button_color: "#79079C",
+        light_nav_color: "#fff",
+        light_sign_red: "#9C0707",
       },
     },
   },
