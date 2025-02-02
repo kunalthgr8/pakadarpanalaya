@@ -11,6 +11,7 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        btn_color: "var(--btn-color)",
       },
     },
   },
